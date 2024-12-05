@@ -1,0 +1,44 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: #fff;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Countdown */
+#countdown {
+  font-size: 1.8rem;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+#countdown span {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 5px;
+  padding: 5px 10px;
+  background: #ff5722;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
